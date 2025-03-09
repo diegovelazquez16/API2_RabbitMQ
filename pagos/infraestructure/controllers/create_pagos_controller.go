@@ -25,7 +25,7 @@ func (c *PagoCreateController) Create(ctx *gin.Context) {
 	}
 
 	ctx.JSON(http.StatusCreated, gin.H{
-		"message": "Usuario creado de forma exitosa",
+		"message": "Pago creado de forma exitosa",
 		"pago": pago,
 	})
 }
